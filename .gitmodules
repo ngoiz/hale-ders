@@ -1,0 +1,6 @@
+[submodule "src/sharpy"]
+	path = src/sharpy
+	url = http://github.com/imperialcollegelondon/sharpy
+[submodule "src/model-hale"]
+	path = src/model-hale
+	url = http://github.com/ngoiz/model-hale/
