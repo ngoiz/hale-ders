@@ -132,3 +132,5 @@ dmypy.json
 *output/
 *.h5
 *.sharpy
+
+.idea/
