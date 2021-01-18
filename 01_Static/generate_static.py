@@ -92,6 +92,9 @@ def generate_static(alpha=0., elevator=0., thrust=0., dt=0.1, case_name='hale_st
                               'folder': output_route,
                               }
 
+    settings['BeamPlot'] = {'folder': output_route,
+                            'include_FoR': 'on'}
+
     hale.create_settings(settings)
 
 
@@ -122,7 +125,7 @@ def main():
         # 'SaveData',
     ]
 
-    generate_static(alpha=alpha, dt=dt, case_name='hale_static', case_route='./',
+    generate_static(alpha=alpha, dt=dt, case_name='hale_static', case_route='./cases/',
                     flow=flow,
                     u_inf=u_inf,
                     M=M,
