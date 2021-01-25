@@ -4,3 +4,6 @@
 [submodule "src/model-hale"]
 	path = src/model-hale
 	url = http://github.com/ngoiz/model-hale/
+[submodule "src/analysis"]
+	path = src/analysis
+	url = http://github.com/ngoiz/sharpy-analysis-tools
