@@ -12,8 +12,15 @@ The finished examples that are ready for use are:
 - `0)HALE Aircraft`: A tutorial on setting up the HALE aircraft class to obtain the `.fem.h5` and `.aero.h5` files
   used in SHARPy.
   
-- `Delivery/01_StabilityDerivatives`; Tutorial going through the required settings in order to obtain the aerodynamic
+- `Delivery/01_StabilityDerivatives`: Tutorial going through the required settings in order to obtain the aerodynamic
   and aeroelastic stability derivatives of the HALE aircraft.
+  
+- `Delivery/02_WakePanelling`: Tutorial going through the required settings in order to discretise the wake
+  with panels growing in size as they are convected downstream.
+  
+- `Delivery/03_PolarCoefficients`: Tutorial showcasing how to add polar airfoil information
+  to model files and the settings required for SHARPy to correct the UVLM obtained forces with
+  the polar information.
   
 ## Installation
 
